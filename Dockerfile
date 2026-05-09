@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:5.8.5
+FROM runpod/worker-comfyui:5.8.5-flux1-dev-fp8
 
 # Download ATTA v5 LoRA (85.6MB)
 RUN comfy model download \
